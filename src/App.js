@@ -6,7 +6,6 @@ import Main from './components/mainPage/Main';
 import Accounting from './components/pages/accounting/Accounting';
 import Legal from './components/pages/legal/Legal';
 import Licenses from './components/pages/licenses/Licenses';
-import Paperwork from './components/pages/paperwork/Paperwork';
 
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
                   <Route path="/accounting" element={<Accounting />}/>
                   <Route path="/legal"      element={<Legal />}/>
                   <Route path="/licenses"   element={<Licenses />}/>
-                  <Route path="/paperwork"  element={<Paperwork />}/>
                </Route>
             </Routes>
          </BrowserRouter>

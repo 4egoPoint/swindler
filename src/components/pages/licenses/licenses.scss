@@ -35,9 +35,6 @@
                   font-size: 33px;
                   margin-left: 40px;
                }
-               .item__text{
-                  font-size: 25px;
-               }
             }
             &__prices{
                display: flex;
@@ -45,14 +42,8 @@
                justify-content: space-around;
                align-items: center;
                gap: 20px;
-               .item__time{
-                  position: absolute;
-                  padding: 10px;
-                  bottom: 0;
-                  right: 0;
-                  color: gray;
-               }
                .item__price{
+                  text-wrap: nowrap;
                   color: purple;
                   font-weight: bold;
                   font-size: 40px;

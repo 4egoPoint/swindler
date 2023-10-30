@@ -1,4 +1,4 @@
-
+@import "../../../App.scss";
 .info{
    background-color: white;
    &__wrapper{
@@ -7,6 +7,10 @@
       display: flex;
       flex-direction: column;
       gap: 40px;
+      @include desktop {
+         width: 100%;
+         padding: 10px;
+      }
       .info__title{
          text-align: center;
          margin-top: 30px;
@@ -31,6 +35,9 @@
                img{
                   height: 100%;              
                }
+               @include desktop {
+                  display: none;
+               }
             }
             .section__content{
                z-index: 5;
@@ -43,6 +50,11 @@
                -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
                -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
                box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+               @include desktop {
+                  position: relative;
+                  width: 100%;
+                  height: 100%;
+               }
                .section__title{
                   padding: 30px;
                   font-size: 40px;
@@ -88,6 +100,9 @@
    img{
       height: 100%;              
    }
+   @include desktop {
+      display: none;
+   }
 }
 .section__content-l{
    z-index: 5;
@@ -100,6 +115,11 @@
    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+   @include desktop {
+      position: relative;
+      width: 100%;
+      height: 100%;
+   }
    .section__title{
       padding: 30px;
       font-size: 40px;

@@ -1,4 +1,4 @@
-
+@import "../../../App.scss";
 .about{
    width: 1366px;
    height: 100%;
@@ -8,6 +8,10 @@
    justify-content: center;
    background-color: #E4F1FF;
    padding-bottom: 100px;
+   @include desktop{
+      width: 100%;
+      padding: 10px;
+   }
    &__wrapper{
       display: flex;
       flex-direction: column;
@@ -16,8 +20,14 @@
          display: flex;
          align-items: center;
          justify-content: center;
+         max-width: 100%;
          img{
             height: 200px;
+            @include mobile{
+               height: 150px;
+               width: 100%;
+               padding: 10px;
+            }
          }
       }
       .about__subtitle{

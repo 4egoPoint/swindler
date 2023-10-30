@@ -1,12 +1,16 @@
+@import "../../../App.scss";
 .header{
-   
    background-color: #E4F1FF;
    &__wrapper{
       width: 1366px;
-      height: 100px;
+      min-height: 100px;
       margin: auto;
       display: flex;
       align-items: center;
+      @include desktop{
+         width: 100%;
+         padding: 10px;
+      }
    }
    &__links{
       width:100%;

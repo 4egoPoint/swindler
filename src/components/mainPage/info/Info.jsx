@@ -1,5 +1,4 @@
 
-import {BsArrowRight} from "react-icons/bs"
 import "./info.scss"
 import SectionRight from "./sections/SectionRight"
 import SectionLeft from "./sections/SectionLeft"
@@ -11,23 +10,11 @@ const infoData = {
       img:"/legal.jpg",
       linkPage:"/legal",
    },
-   business: {
-      title:"Business Registration",
-      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi laudantium unde nesciunt porro provident, assumenda pariatur recusandae nam perspiciatis.",
-      img:"/business.jpg",
-      linkPage:"/business",
-   },
    accounting: {
       title:"Accounting",
       text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi laudantium unde nesciunt porro provident, assumenda pariatur recusandae nam perspiciatis.",
       img:"/accounting.jpg",
       linkPage:"/accounting",
-   },
-   paperwork: {
-      title:"Paperwork",
-      text:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi laudantium unde nesciunt porro provident, assumenda pariatur recusandae nam perspiciatis.",
-      img:"/paperwork.jpg",
-      linkPage:"/paperwork",
    },
    licenses: {
       title:"Licenses",
