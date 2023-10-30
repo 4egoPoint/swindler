@@ -49,22 +49,10 @@ const Info = () => {
             linkPage={infoData.legal.linkPage}
             />
             <SectionLeft 
-            title={infoData.business.title} 
-            text={infoData.business.text}
-            img={infoData.business.img}
-            linkPage={infoData.business.linkPage}
-            />
-            <SectionRight 
             title={infoData.accounting.title} 
             text={infoData.accounting.text}
             img={infoData.accounting.img}
             linkPage={infoData.accounting.linkPage}
-            />
-            <SectionLeft 
-            title={infoData.paperwork.title} 
-            text={infoData.paperwork.text}
-            img={infoData.paperwork.img}
-            linkPage={infoData.paperwork.linkPage}
             />
             <SectionRight 
             title={infoData.licenses.title} 

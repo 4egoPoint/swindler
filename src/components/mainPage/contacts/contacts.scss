@@ -3,6 +3,7 @@
    background-color: white;
    &__wrapper{
       width: 1366px;
+      position:relative;
       margin: auto;
       display: flex;
       align-items: center;
@@ -43,6 +44,33 @@
       }
       .email{
          flex: 1;
+      }
+   }
+}
+form{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   border: 1px solid black;
+   padding: 20px;
+   border-radius: 20px;
+   margin-top: 100px;
+   input,textarea{
+      padding: 20px;
+      background-color: transparent;
+      border: 1px solid lightgray;
+      color: black;
+      border-radius: 5px;
+   }
+   button{
+      padding: 20px;
+      border: none;
+      background-color: #E4F1FF;
+      cursor: pointer;
+      font-weight: 500;
+      &:hover{
+         border-right:3px solid black;
+         border-left:3px solid black;
       }
    }
 }

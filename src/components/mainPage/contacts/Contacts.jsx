@@ -31,21 +31,21 @@ const Contacts = () => {
                </div>
                <div className="links__list">
                   <a href="tel:+48739137066" className="links__list-item"><BsFillTelephoneFill/>+48 739 137 066</a>
-                  <a href="mailto:main@artful.com.pl" className="links__list-item"><AiOutlineMail/>main@artful.com.pl</a>
+                  <a href="mailto:mainfhr@gmail.com" className="links__list-item"><AiOutlineMail/>mainfhr@gmail.com</a>
                   <a target="_blank" className="links__list-item" href="https://www.google.com/maps/place/Zamiany,+02-786+Warszawa/@52.1606256,21.0347806,17z/data=!3m1!4b1!4m6!3m5!1s0x47193296d391647f:0x3bde514f670bd71!8m2!3d52.1606256!4d21.0347806!16s%2Fg%2F1hjgkhg63?entry=ttu">
                      <ImLocation />Warsaw
                   </a>
                </div>
             </div>
             <div className="contacts__email email">
-            <form onSubmit={sendEmail}  ref={formRef}>
-               <input type="text" required placeholder="Name" name="name"/>
-               <input type="email" required placeholder="Email" name="email"/>
-               <textarea rows={6} placeholder="Message" name="message"/>
-               <button>Submit</button>
-               {error && "Error"}
-               {success && "Success"}
-            </form>
+               <form onSubmit={sendEmail}  ref={formRef}>
+                  <input type="text" required placeholder="Name" name="name"/>
+                  <input type="email" required placeholder="Email" name="email"/>
+                  <textarea rows={6} placeholder="Message" name="message"/>
+                  <button>Submit</button>
+                  {error && "Error"}
+                  {success && "Success"}
+               </form>
             </div>
          </div>
       </div>
